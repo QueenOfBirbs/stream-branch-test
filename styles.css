@@ -1,24 +1,44 @@
+/* font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif; */
+
 body {
 	background-image: url(./161326.png);
 }
-.card {
-	height: 300px;
-	width: 600px;
-	text-align: center;
-	font-size: larger;
+
+#box {
+	border-color: #369a4f;
+	border-style: solid;
+	border-width: 5px;
+	border-top: none;
 }
 
-.card-header {
+.header {
 	font-size: xx-large;
 	font-family: "Oleo Script Swash Caps", cursive;
-	font-size: medium;
 	text-align: center;
+	opacity: 1;
+	position: fixed;
+	left: 500px;
+	top: 160px;
+	z-index: 1;
 }
 
-.card-text {
-	padding-top: 40px;
-	padding-left: 30px;
-	padding-right: 30px;
+.text {
+	font-family: "Yanone Kaffeesatz", sans-serif;
+	padding-left: 27.5px;
+	padding-right: 27.5px;
+	padding-top: 55px;
+	margin: 60px;
+	background-color: #fff;
+	opacity: 0.85;
+	border-radius: 30px;
+	font-size: x-large;
+	height: 210px;
+	width: 420px;
+	text-align: center;
+	position: fixed;
+	left: 500px;
+	top: 150px;
 }
 
 #neon {
