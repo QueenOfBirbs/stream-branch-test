@@ -3,23 +3,14 @@ font-family: 'Yanone Kaffeesatz', sans-serif; */
 
 body {
 	background-image: url(./161326.png);
+	justify-content: center;
+	justify-items: center;
 }
 
-#box {
-	border-color: #369a4f;
-	border-style: solid;
-	border-width: 5px;
-	border-top: none;
-}
-
-.header {
+.display-3 {
 	font-size: xx-large;
 	font-family: "Oleo Script Swash Caps", cursive;
-	text-align: center;
 	opacity: 1;
-	position: fixed;
-	left: 500px;
-	top: 160px;
 	z-index: 1;
 }
 
@@ -27,24 +18,26 @@ body {
 	font-family: "Yanone Kaffeesatz", sans-serif;
 	padding-left: 27.5px;
 	padding-right: 27.5px;
-	padding-top: 55px;
+	padding-top: 85px;
+	padding-bottom: 27.5px;
 	margin: 60px;
 	background-color: #fff;
 	opacity: 0.85;
 	border-radius: 30px;
 	font-size: x-large;
-	height: 210px;
+	height: fit-content;
+	width: fit-content;
+}
+#text-box {
 	width: 420px;
-	text-align: center;
-	position: fixed;
-	left: 500px;
-	top: 150px;
+	border-color: #369a4f;
+	border-style: solid;
+	border-width: 5px;
 }
 
 #neon {
 	font-size: xxx-large;
 	padding: 25px;
-	text-align: center;
 	font-family: "Meow Script", cursive;
 	font-weight: bold;
 	animation: pulsate 3.5s infinite alternate;
